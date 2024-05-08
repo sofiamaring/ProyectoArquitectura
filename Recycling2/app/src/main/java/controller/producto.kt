@@ -49,4 +49,31 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
             }
         }
     }
+    private fun consultarProducto() {
+
+        productoDao.consultarProducto { producto ->
+            if (producto != null) {
+
+                mostrarLayoutInfoProducto(producto)
+            } else {
+                mostrarAlarmaProductoNoEncontrado()
+            }
+        }
+    }
+
+    private fun mostrarLayoutInfoProducto(producto: Producto) {
+
+        findViewById<View>(R.id.alarma_producto_no_encontrado).visibility = View.GONE
+
+
+        findViewById<View>(R.id.info_producto).visibility = View.VISIBLE
+
+    }
+
+    private fun mostrarAlarmaProductoNoEncontrado() {
+
+        findViewById<View>(R.id.info_producto).visibility = View.GONE
+
+        findViewById<View>(R.id.alarma_producto_no_encontrado).visibility = View.VISIBLE
+    }
 }

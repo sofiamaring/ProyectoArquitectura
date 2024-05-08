@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import model.Producto
 import model.ProductoDAO
+import android.view.View
 
 class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivity() {
     private lateinit var editTextNombre: EditText
@@ -39,7 +40,7 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
             return
         }
 
-        val nuevoProducto = Producto(nombre = nombre, tipo = tipo, descripcion = descripcion)
+        val nuevoProducto = Producto(nombre, tipo, descripcion)
 
         productoDao.crearProducto(nuevoProducto) { exito ->
             if (exito) {
@@ -50,8 +51,8 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
         }
     }
     private fun consultarProducto() {
-
-        productoDao.consultarProducto { producto ->
+        val nombreProducto = editTextNombre.text.toString().trim()
+        productoDao.consultarProductoPorNombre(nombreProducto){ producto ->
             if (producto != null) {
 
                 mostrarLayoutInfoProducto(producto)
@@ -75,5 +76,30 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
         findViewById<View>(R.id.info_producto).visibility = View.GONE
 
         findViewById<View>(R.id.alarma_producto_no_encontrado).visibility = View.VISIBLE
+    }
+    private fun modificarProducto() {
+        val nombre = editTextNombre.text.toString().trim()
+        val tipo = editTextTipo.text.toString().trim()
+        val descripcion = editTextDescripcion.text.toString().trim()
+
+        if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
+            Toast.makeText(this, "Por favor, complete todos los campos", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        productoDao.consultarProductoPorNombre(nombre) { producto ->
+            if (producto != null) {
+                val nuevoProducto = Producto(nombre, tipo, descripcion)
+                productoDao.actualizarProducto(producto.idProducto, nuevoProducto) { exito ->
+                    if (exito) {
+                        Toast.makeText(this, "Producto actualizado correctamente", Toast.LENGTH_SHORT).show()
+                    } else {
+                        Toast.makeText(this, "Error al actualizar el producto", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            } else {
+                Toast.makeText(this, "No se encontró el producto a modificar", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 }

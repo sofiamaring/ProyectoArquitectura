@@ -45,11 +45,19 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
         productoDao.crearProducto(nuevoProducto) { exito ->
             if (exito) {
                 Toast.makeText(this, "Producto agregado correctamente", Toast.LENGTH_SHORT).show()
+                limpiarCampos()
             } else {
                 Toast.makeText(this, "Error al agregar el producto", Toast.LENGTH_SHORT).show()
             }
         }
     }
+    
+    private fun limpiarCampos() {
+        editTextNombre.text.clear()
+        editTextPrecio.text.clear()
+        editTextDescripcion.text.clear()
+    }
+    
     private fun consultarProducto() {
         val nombreProducto = editTextNombre.text.toString().trim()
         productoDao.consultarProductoPorNombre(nombreProducto){ producto ->

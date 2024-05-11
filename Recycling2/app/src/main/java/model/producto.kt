@@ -13,7 +13,7 @@ public class Producto() {
         this.tipo = tipo
         this.descripcion = des
     }
-
+    // encapsulamiento
     fun getNombre(): String {
         return nombre
     }

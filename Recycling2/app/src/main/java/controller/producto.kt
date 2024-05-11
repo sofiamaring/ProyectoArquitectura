@@ -16,9 +16,10 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // se inicializa la vista
         setContentView(R.layout.nuevo_producto)
 
-        // Inicializar las vistas
+        // Inicializar los elementos de la vista nuevo_producto
         editTextNombre = findViewById(R.id.editTextNombre)
         editTextTipo = findViewById(R.id.editTextTipo)
         editTextDescripcion = findViewById(R.id.editTextDescripcion)
@@ -29,10 +30,11 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
             agregarProducto()
         }
     }
-
+    //funcion de agregar producto cuando se haga click en el boton
+    // donde se accede a la informacion ingresada en los edittext de las vistas
     private fun agregarProducto() {
         val nombre = editTextNombre.text.toString().trim()
-        val tipo = editTextTipo.text.toString().trim() // Usar editTextTipo en lugar de editTextPrecio
+        val tipo = editTextTipo.text.toString().trim()
         val descripcion = editTextDescripcion.text.toString().trim()
 
         if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
@@ -45,19 +47,13 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
         productoDao.crearProducto(nuevoProducto) { exito ->
             if (exito) {
                 Toast.makeText(this, "Producto agregado correctamente", Toast.LENGTH_SHORT).show()
-                limpiarCampos()
             } else {
                 Toast.makeText(this, "Error al agregar el producto", Toast.LENGTH_SHORT).show()
             }
         }
     }
-    
-    private fun limpiarCampos() {
-        editTextNombre.text.clear()
-        editTextPrecio.text.clear()
-        editTextDescripcion.text.clear()
-    }
-    
+
+    //falta inicializar las otras vistas para acceder a us slementos y botones y asignarles las funciones correspondientes
     private fun consultarProducto() {
         val nombreProducto = editTextNombre.text.toString().trim()
         productoDao.consultarProductoPorNombre(nombreProducto){ producto ->

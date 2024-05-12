@@ -34,7 +34,7 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
     // donde se accede a la informacion ingresada en los edittext de las vistas
     private fun agregarProducto() {
         val nombre = editTextNombre.text.toString().trim()
-        val tipo = editTextTipo.text.toString().trim()
+        val tipo = editTextTipo.text.toString().trim() 
         val descripcion = editTextDescripcion.text.toString().trim()
 
         if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {

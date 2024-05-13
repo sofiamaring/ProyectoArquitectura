@@ -59,9 +59,22 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
         editTextDescripcion.text.clear()
     }
 
+
+
+
+
+
+
+
+
+    
     //falta inicializar las otras vistas para acceder a us slementos y botones y asignarles las funciones correspondientes
     private fun consultarProducto() {
-        val nombreProducto = editTextNombre.text.toString().trim()
+        val nombreProducto = editTextNombre3.text.toString().trim()
+        if (nombreProducto.isEmpty()) {
+            Toast.makeText(this, "Por favor, ingrese el nombre a consultar", Toast.LENGTH_SHORT).show()
+            return
+        }
         productoDao.consultarProductoPorNombre(nombreProducto){ producto ->
             if (producto != null) {
 
@@ -87,10 +100,23 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
 
         findViewById<View>(R.id.alarma_producto_no_encontrado).visibility = View.VISIBLE
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
     private fun modificarProducto() {
-        val nombre = editTextNombre.text.toString().trim()
-        val tipo = editTextTipo.text.toString().trim()
-        val descripcion = editTextDescripcion.text.toString().trim()
+        val nombre = editTextNombre2.text.toString().trim()
+        val tipo = editTextTipo2.text.toString().trim()
+        val descripcion = editTextDescripcion2.text.toString().trim()
 
         if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
             Toast.makeText(this, "Por favor, complete todos los campos", Toast.LENGTH_SHORT).show()

@@ -18,17 +18,6 @@ class login_recycling : ComponentActivity() {
 
 //navegavilidad del dashboard
 
-class canecas_dashboard : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.dashboard_recycling)
-        val boton_crear_cuenta = findViewById<LinearLayout>(R.id.canecas)
-        boton_crear_cuenta.setOnClickListener {
-            setContentView(R.layout.menu_recycling)
-        }
-    }
-}
-
 class buscar_dashboard : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,17 +47,6 @@ class registrar_dashboard : ComponentActivity() {
         val boton_crear_cuenta = findViewById<LinearLayout>(R.id.registrar)
         boton_crear_cuenta.setOnClickListener {
             setContentView(R.layout.nuevo_producto)
-        }
-    }
-}
-
-class modificar_dashboard : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.dashboard_recycling)
-        val boton_crear_cuenta = findViewById<LinearLayout>(R.id.modificar)
-        boton_crear_cuenta.setOnClickListener {
-            setContentView(R.layout.editar_producto)
         }
     }
 }

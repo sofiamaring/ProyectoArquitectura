@@ -21,11 +21,19 @@ class MainActivity : ComponentActivity() {
     //funciones
 
     fun sign_in (view: View){
+        setContentView(R.layout.dashboard_recycling)
+    }
+
+    fun añadir_producto (view: View){
         setContentView(R.layout.busqueda_productos)
     }
 
-}
+    fun editar_producto (view: View){
+        setContentView(R.layout.busqueda_productos)
+    }
 
+
+}
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {

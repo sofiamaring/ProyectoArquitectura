@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="log"
+            android:name="controller.login_recycling"
             android:exported="true">
         </activity>
     </application>

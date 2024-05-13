@@ -83,10 +83,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="120dp"
         android:baselineAligned="false"
         android:gravity="center"
-        android:text="¿Que quieres consultar hoy?"
+        android:text="¿Que quieres realizar hoy?"
         android:textColor="#000000"
         android:textSize="20sp" />
 
@@ -102,7 +102,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:background="@drawable/boton_redondo_opciones"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="125dp"
             android:gravity="center"
             android:layout_marginBottom="20dp">
 
@@ -110,35 +110,11 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/caneca" />
+                android:src="@drawable/luna2" />
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:gravity="bottom|right"
-            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/buscar_principal"
-                android:layout_marginRight="35dp"
-                android:layout_marginBottom="20dp"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:background="@drawable/boton_redondo_opciones"
-                android:gravity="center"
-                android:textColor="@android:color/white">
-
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/luna2" />
-
-            </LinearLayout>
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -154,25 +130,13 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:baselineAligned="false"
-            android:layout_marginLeft="62dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:text="CANECAS"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:baselineAligned="false"
-            android:layout_marginLeft="68dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="147dp"
             android:gravity="center"
             android:text="BUSCAR"
             android:textColor="#000000"
             android:textSize="14sp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -187,7 +151,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:background="@drawable/boton_redondo_opciones"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="125dp"
             android:gravity="center"
             android:layout_marginBottom="20dp">
 
@@ -199,31 +163,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:gravity="bottom|right"
-            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/modificar"
-                android:layout_marginRight="35dp"
-                android:layout_marginBottom="20dp"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:background="@drawable/boton_redondo_opciones"
-                android:gravity="center"
-                android:textColor="@android:color/white">
-
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/editar" />
-
-            </LinearLayout>
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -239,25 +179,13 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:baselineAligned="false"
-            android:layout_marginLeft="62dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="147dp"
             android:gravity="center"
             android:text="REGISTRAR"
             android:textColor="#000000"
             android:textSize="14sp"
             android:textStyle="bold"/>
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:baselineAligned="false"
-            android:layout_marginLeft="68dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:text="MODIFICAR"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            />
+
     </LinearLayout>
 
 

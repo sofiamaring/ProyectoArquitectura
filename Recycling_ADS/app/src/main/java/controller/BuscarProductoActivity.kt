@@ -1,0 +1,33 @@
+package controller
+
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import model.ProductoDAO
+
+class BuscarProductoActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.busqueda_productos)
+
+        val editTextNombre: EditText = findViewById(R.id.editTextNombreConsultar)
+        val btnConsultarProducto: Button = findViewById(R.id.btnConsultarProducto)
+
+        btnConsultarProducto.setOnClickListener {
+            val nombre = editTextNombre.text.toString().trim()
+            if (nombre.isEmpty()) {
+                Toast.makeText(this, "Ingrese el nombre a consultar", Toast.LENGTH_SHORT).show()
+            } else {
+                ProductoDAO.consultarProductoPorNombre(nombre) { producto ->
+                    if (producto != null) {
+                        Toast.makeText(this, "Producto encontrado: ${producto.nombre}", Toast.LENGTH_LONG).show()
+                    } else {
+                        Toast.makeText(this, "Producto no encontrado", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+        }
+    }
+}

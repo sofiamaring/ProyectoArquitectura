@@ -67,7 +67,7 @@ class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivi
 
 
 
-    
+
     //falta inicializar las otras vistas para acceder a us slementos y botones y asignarles las funciones correspondientes
     private fun consultarProducto() {
         val nombreProducto = editTextNombre3.text.toString().trim()

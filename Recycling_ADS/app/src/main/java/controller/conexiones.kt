@@ -1,10 +1,9 @@
-package com.example.recycling_ads
+package controller
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import android.widget.LinearLayout
 import android.widget.Button
-import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
+import com.example.recycling_ads.R
 
 class login_recycling : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -80,7 +80,8 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/editText_consultar_producto"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -89,24 +90,13 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:layout_marginLeft="0dp"
-            android:layout_marginRight="100dp"
-            android:gravity="center"
-            android:text="Busca aqui tu producto"
-            android:textColor="#000000"
-            android:textSize="18sp"/>
+    </EditText>
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/regresar" />
-
-    </LinearLayout>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lupa" />
 
     <LinearLayout
         android:layout_width="350dp"

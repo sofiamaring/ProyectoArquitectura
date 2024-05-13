@@ -13,19 +13,21 @@ class ModificarProductoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.editar_producto)
 
-        val editTextNombre: EditText = findViewById(R.id.editTextNombreModificar)
-        val editTextTipo: EditText = findViewById(R.id.editTextTipoModificar)
-        val btnModificarProducto: Button = findViewById(R.id.btnModificarProducto)
+        val editTextNombre: EditText = findViewById(R.id.editTextNombre_editar)
+        val editTextTipo: EditText = findViewById(R.id.editTextTipo_editar)
+        val editTextDescripcion: EditText = findViewById(R.id.editTextDescripcion_editar)
+        val btnModificarProducto: Button = findViewById(R.id.btneditar_producto)
 
         btnModificarProducto.setOnClickListener {
             val nombre = editTextNombre.text.toString().trim()
             val tipo = editTextTipo.text.toString().trim()
-            if (nombre.isEmpty() || tipo.isEmpty()) {
+            val descripcion = editTextDescripcion.text.toString().trim()
+            if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
                 Toast.makeText(this, "Todos los campos son obligatorios", Toast.LENGTH_SHORT).show()
             } else {
                 ProductoDAO.consultarProductoPorNombre(nombre) { producto ->
                     if (producto != null) {
-                        val productoModificado = Producto(nombre, tipo, producto.idProducto)
+                        val productoModificado = Producto(nombre, tipo, descripcion)
                         ProductoDAO.actualizarProducto(producto.idProducto, productoModificado) { success ->
                             if (success) {
                                 Toast.makeText(this, "Producto actualizado correctamente", Toast.LENGTH_SHORT).show()

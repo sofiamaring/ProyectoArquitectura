@@ -15,15 +15,17 @@ class AgregarProductoActivity: AppCompatActivity() {
 
         val editTextNombre: EditText = findViewById(R.id.editTextNombreAgregar)
         val editTextTipo: EditText = findViewById(R.id.editTextTipoAgregar)
+        val editTextDescripcion: EditText = findViewById(R.id.editTextDesAgregar)
         val btnAgregarProducto: Button = findViewById(R.id.btnAgregarProducto)
 
         btnAgregarProducto.setOnClickListener {
             val nombre = editTextNombre.text.toString().trim()
             val tipo = editTextTipo.text.toString().trim()
-            if (nombre.isEmpty() || tipo.isEmpty()) {
+            val descripcion = editTextDescripcion.text.toString().trim()
+            if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
                 Toast.makeText(this, "Todos los campos son obligatorios", Toast.LENGTH_SHORT).show()
             } else {
-                val producto = Producto(nombre, tipo)
+                val producto = Producto(nombre, tipo,descripcion)
                 ProductoDAO.crearProducto(producto) { success ->
                     if (success) {
                         Toast.makeText(this, "Producto agregado correctamente", Toast.LENGTH_SHORT).show()

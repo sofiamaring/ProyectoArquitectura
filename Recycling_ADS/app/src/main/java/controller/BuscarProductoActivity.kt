@@ -12,8 +12,8 @@ class BuscarProductoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.busqueda_productos)
 
-        val editTextNombre: EditText = findViewById(R.id.editTextNombreConsultar)
-        val btnConsultarProducto: Button = findViewById(R.id.btnConsultarProducto)
+        val editTextNombre: EditText = findViewById(R.id.editText_consultar_producto)
+        val btnConsultarProducto: Button = findViewById(R.id.consultar_producto_lupa)
 
         btnConsultarProducto.setOnClickListener {
             val nombre = editTextNombre.text.toString().trim()

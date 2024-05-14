@@ -1,4 +1,4 @@
-package model
+package com.example.recycling.model
 
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.DatabaseReference

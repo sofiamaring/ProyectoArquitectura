@@ -1,11 +1,12 @@
-package controller
+package com.example.recycling.controller
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import model.ProductoDAO
+import com.example.recycling.model.ProductoDAO
+import com.example.recycling.R
 
 class BuscarProductoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

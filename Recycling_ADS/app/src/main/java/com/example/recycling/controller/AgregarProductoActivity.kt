@@ -1,22 +1,24 @@
-package controller
+package com.example.recycling.controller
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import model.Producto
-import model.ProductoDAO
+import com.example.recycling.model.Producto
+import com.example.recycling.model.ProductoDAO
+import com.example.recycling.R
+
 
 class AgregarProductoActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.nuevo_producto)
 
-        val editTextNombre: EditText = findViewById(R.id.editTextNombreAgregar)
-        val editTextTipo: EditText = findViewById(R.id.editTextTipoAgregar)
-        val editTextDescripcion: EditText = findViewById(R.id.editTextDesAgregar)
-        val btnAgregarProducto: Button = findViewById(R.id.btnAgregarProducto)
+        val editTextNombre: EditText = findViewById(R.id.editTextNombre_registrar)
+        val editTextTipo: EditText = findViewById(R.id.editTextTipo_registrar)
+        val editTextDescripcion: EditText = findViewById(R.id.editTextDescripcion_registrar)
+        val btnAgregarProducto: Button = findViewById(R.id.añadir_producto)
 
         btnAgregarProducto.setOnClickListener {
             val nombre = editTextNombre.text.toString().trim()

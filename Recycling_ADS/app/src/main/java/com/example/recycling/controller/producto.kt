@@ -1,11 +1,11 @@
-package controller
+package com.example.recycling.controller
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import model.Producto
-import model.ProductoDAO
+import com.example.recycling.model.Producto
+import com.example.recycling.model.ProductoDAO
 import android.view.View
 
 class ControllerProducto(private val productoDao: ProductoDAO) : AppCompatActivity() {

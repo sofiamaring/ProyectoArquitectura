@@ -10,9 +10,16 @@ object ProductoDAO {
     private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
     private val productosRef: DatabaseReference = database.getReference("productos")
 
-    fun crearProducto(producto: Producto, callback: (Boolean) -> Unit) {
-        productosRef.push().setValue(producto).addOnCompleteListener { task ->
-            callback(task.isSuccessful)
+    fun crearProducto(producto: Producto, callback: (Boolean, String?) -> Unit) {
+        val ref = productosRef.push()
+        producto.idProducto = ref.key ?: ""
+
+        ref.setValue(producto).addOnCompleteListener { task ->
+            if (task.isSuccessful) {
+                callback(true, null) // No hay error, pasamos null
+            } else {
+                callback(false, task.exception?.message) // Pasamos el mensaje de error
+            }
         }
     }
 

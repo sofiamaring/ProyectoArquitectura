@@ -3,6 +3,7 @@ package com.example.recycling.controller
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.model.ProductoDAO
@@ -14,8 +15,8 @@ class BuscarProductoActivity : AppCompatActivity() {
         setContentView(R.layout.busqueda_productos)
 
         val editTextNombre: EditText = findViewById(R.id.editText_consultar_producto)
-        val btnConsultarProducto: Button = findViewById(R.id.consultar_producto_lupa)
-
+        val btnConsultarProducto: ImageButton = findViewById(R.id.btnBuscar)
+        val btnRegresar: ImageButton = findViewById(R.id.btnRegresar)
         btnConsultarProducto.setOnClickListener {
             val nombre = editTextNombre.text.toString().trim()
             if (nombre.isEmpty()) {
@@ -30,5 +31,10 @@ class BuscarProductoActivity : AppCompatActivity() {
                 }
             }
         }
+        btnRegresar.setOnClickListener {
+            // Simplemente finaliza esta actividad, regresando a la anterior en el stack
+            finish()
+        }
+
     }
 }

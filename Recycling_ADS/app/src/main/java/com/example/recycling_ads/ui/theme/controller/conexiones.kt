@@ -1,4 +1,4 @@
-package controller
+package com.example.recycling_ads.ui.theme.controller
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import android.widget.LinearLayout

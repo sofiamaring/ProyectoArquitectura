@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Recycling_ADS"
         tools:targetApi="31">
         <activity
-            android:name="controller.MainActivity"
+            android:name=".ui.theme.controller.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Recycling_ADS">
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="controller.login_recycling"
+            android:name=".ui.theme.controller.login_recycling"
             android:exported="true">
         </activity>
     </application>

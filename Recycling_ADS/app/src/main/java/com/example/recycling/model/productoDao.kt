@@ -6,6 +6,8 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 
+
+//<!-- funciones para acceder a la base de datos-->
 object ProductoDAO {
     private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
     private val productosRef: DatabaseReference = database.getReference("productos")

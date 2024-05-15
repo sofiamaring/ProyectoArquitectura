@@ -14,13 +14,13 @@ class AgregarProductoActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.nuevo_producto)
-
+        //<!-- Se declaran los nombres de las variables de los EDitText, Button, etc de la vista para manejarlos aquí   -->
         val editTextNombre: EditText = findViewById(R.id.editTextNombre_registrar)
         val editTextTipo: EditText = findViewById(R.id.editTextTipo_registrar)
         val editTextDescripcion: EditText = findViewById(R.id.editTextDescripcion_registrar)
         val btnAgregarProducto: Button = findViewById(R.id.añadir_producto)
         val btnRegresar: ImageButton = findViewById(R.id.btnRegresar)
-
+        //<!-- Se agrega evento al boton de la vista -->
         btnAgregarProducto.setOnClickListener {
             val nombre = editTextNombre.text.toString().trim()
             val tipo = editTextTipo.text.toString().trim()
@@ -28,6 +28,7 @@ class AgregarProductoActivity: AppCompatActivity() {
             if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
                 Toast.makeText(this, "Todos los campos son obligatorios", Toast.LENGTH_SHORT).show()
             } else {
+                //<!-- Se crea el producto para mandarselo al modelo-->
                 val producto = Producto(nombre, tipo, descripcion)
                 ProductoDAO.crearProducto(producto) { success, error ->
                     if (success) {
@@ -42,7 +43,7 @@ class AgregarProductoActivity: AppCompatActivity() {
 
             }
         }
-
+        //<!-- Evento para le boton de regresar, termina esta actividad-->
         btnRegresar.setOnClickListener {
             // Simplemente finaliza esta actividad, regresando a la anterior en el stack
             finish()

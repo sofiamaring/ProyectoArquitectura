@@ -1,0 +1,10 @@
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/ui/theme/Type.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/ui/theme/Color.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/controller/AgregarProductoActivity.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/ui/theme/Theme.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/controller/producto.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/controller/BuscarProductoActivity.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/MainActivity.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/controller/ModificarProductoActivity.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/model/productoDao.kt
+/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/java/com/example/recycling/model/producto.kt

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/menu_dashboard"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/borde_redondo_boton"
+            android:gravity="center"
+            android:textColor="@android:color/white">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="245dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/reciclyng" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="¿Que quieres realizar hoy?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/buscar_principal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/boton_redondo_opciones"
+            android:layout_marginLeft="125dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:id="@+id/buscarbtn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+                android:src="@drawable/luna2" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false"
+            android:layout_marginLeft="147dp"
+            android:gravity="center"
+            android:text="BUSCAR"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/registrar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/boton_redondo_opciones"
+            android:layout_marginLeft="125dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:id="@+id/btnAgregarProducto"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/registrar"
+                android:background="?android:attr/selectableItemBackground" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false"
+            android:layout_marginLeft="147dp"
+            android:gravity="center"
+            android:text="REGISTRAR"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

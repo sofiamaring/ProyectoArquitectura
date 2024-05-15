@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#142157"
+            android:textIsSelectable="false"
+            android:textSize="40sp"
+            android:textStyle="bold">
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/reciclyng" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="85dp"
+            android:layout_marginBottom="2dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="Username:"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_gestiones"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="86dp"
+            android:layout_marginBottom="2dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="Password:"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/boton_gestiones"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="Don't have an account?:"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="Sign-Up"
+            android:textColor="#13E115"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/sign_in"
+            android:onClick="sign_in"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:background="@drawable/boton_out"
+            android:text="Sign In"
+            android:gravity="center"
+            android:textColor="@android:color/white">
+
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

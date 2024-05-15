@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/menu_editar_producto"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/borde_redondo_boton"
+            android:gravity="center"
+            android:textColor="@android:color/white">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="245dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/editar_producto" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/regresar_editar_producto"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/circulo_menu"
+                android:gravity="center"
+                android:textColor="@android:color/white">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/regresar" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/boton_redondo_opciones"
+            android:layout_marginLeft="105dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cocacola" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Gaseosa Coca-Cola Original x 400ml"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="2dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Nombre del producto:*"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextNombre_editar"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_gestiones"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="2dp"
+        android:baselineAligned="false"
+        android:text="Tipo:*"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTipo_editar"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_gestiones"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="2dp"
+        android:baselineAligned="false"
+        android:text="Descripcion del producto:*"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion_editar"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_gestiones"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/fondo_solido_borde"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:text="ESTADO:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="Disponible"
+            android:textColor="#2DB62F"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btneditar_producto"
+        android:onClick="editar_producto"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_out"
+        android:text="Editar producto"
+        android:gravity="center"
+        android:textColor="@android:color/white">
+    </Button>
+
+</LinearLayout>

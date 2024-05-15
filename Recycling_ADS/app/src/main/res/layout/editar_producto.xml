@@ -221,7 +221,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/editar_producto"
+        android:id="@+id/btneditar_producto"
         android:onClick="editar_producto"
         android:layout_marginRight="0dp"
         android:layout_marginBottom="20dp"

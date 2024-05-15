@@ -53,31 +53,6 @@
         </LinearLayout>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:gravity="bottom|right"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:id="@+id/buscar_superior"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="20dp"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:background="@drawable/circulo_menu"
-                android:gravity="center"
-                android:textColor="@android:color/white">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/lupa" />
-
-            </LinearLayout>
-        </LinearLayout>
     </LinearLayout>
 
     <TextView
@@ -107,9 +82,11 @@
             android:gravity="center"
             android:layout_marginBottom="20dp">
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/buscarbtn"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
+                android:background="?android:attr/selectableItemBackground"
                 android:scaleType="centerCrop"
                 android:src="@drawable/luna2" />
 
@@ -156,11 +133,14 @@
             android:gravity="center"
             android:layout_marginBottom="20dp">
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/btnAgregarProducto"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/registrar" />
+                android:src="@drawable/registrar"
+                android:background="?android:attr/selectableItemBackground" />
+
 
         </LinearLayout>
 

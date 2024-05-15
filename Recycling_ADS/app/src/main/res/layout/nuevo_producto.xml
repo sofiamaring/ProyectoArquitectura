@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,14 +16,13 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginBottom="25dp"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
             android:background="@drawable/borde_redondo_boton"
-            android:gravity="center"
-            android:textColor="@android:color/white">
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="40dp"
@@ -44,13 +42,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginBottom="35dp"
-                android:layout_marginLeft="10dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/nuevo_producto" />
 
         </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,17 +57,18 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="20dp"
                 android:layout_width="65dp"
                 android:layout_height="65dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
                 android:background="@drawable/circulo_menu"
-                android:gravity="center"
-                android:textColor="@android:color/white">
+                android:gravity="center">
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/btnRegresar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
                     android:scaleType="centerCrop"
                     android:src="@drawable/regresar" />
 
@@ -89,7 +87,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:background="@drawable/boton_redondo_opciones"
-            android:layout_marginLeft="105dp"
+            android:layout_marginStart="105dp"
             android:layout_marginBottom="25dp"
             android:gravity="center">
 
@@ -106,13 +104,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:baselineAligned="false"
         android:gravity="center"
-        android:text="Gaseosa Coca-Cola Original x 400ml"
+        android:text="Nuevo Producto"
         android:textColor="#000000"
         android:textSize="22sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="220dp"
@@ -131,12 +127,8 @@
         android:id="@+id/editTextNombre_registrar"
         android:layout_width="320dp"
         android:layout_height="36dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-    </EditText>
+        android:gravity="center_vertical" />
 
     <TextView
         android:layout_width="220dp"
@@ -154,13 +146,8 @@
         android:id="@+id/editTextTipo_registrar"
         android:layout_width="320dp"
         android:layout_height="36dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-    </EditText>
+        android:gravity="center_vertical" />
 
     <TextView
         android:layout_width="250dp"
@@ -178,28 +165,18 @@
         android:id="@+id/editTextDescripcion_registrar"
         android:layout_width="320dp"
         android:layout_height="36dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-    </EditText>
-
+        android:gravity="center_vertical" />
 
     <Button
         android:id="@+id/añadir_producto"
-        android:onClick="añadir_producto"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="40dp"
         android:layout_width="150dp"
         android:layout_height="48dp"
         android:background="@drawable/boton_out"
         android:text="Añadir producto"
+        android:textColor="@android:color/white"
         android:gravity="center"
-        android:textColor="@android:color/white">
-
-    </Button>
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp" />
 
 </LinearLayout>

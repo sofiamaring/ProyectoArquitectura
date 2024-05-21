@@ -7,11 +7,13 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.R
 
+
+//actividad para mostrar los datos del producto
 class InfoProductoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.info_producto)
-
+        // recibe el producto que se selecciono
         val nombre = intent.getStringExtra("nombre")
         val descripcion = intent.getStringExtra("descripcion")
         val tipo = intent.getStringExtra("tipo")
@@ -30,9 +32,10 @@ class InfoProductoActivity : AppCompatActivity() {
         btnRegresar.setOnClickListener {
             finish()
         }
-
+        //Agrega el evento del botón para la siguinete actividad
         btnModificar.setOnClickListener {
             val intent = Intent(this, ModificarProductoActivity::class.java).apply {
+                // Envia los datos del producto que se esta manejando
                 putExtra("nombre", nombre)
                 putExtra("tipo", tipo)
                 putExtra("descripcion", descripcion)

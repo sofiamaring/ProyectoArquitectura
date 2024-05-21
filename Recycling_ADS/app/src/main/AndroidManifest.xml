@@ -38,7 +38,11 @@
             android:name=".controller.ModificarProductoActivity"
             android:label="@string/title_activity_modificar_producto"
             android:exported="false" />
+        <!-- ResultadosBusquedaActivity es el controlador para la funcionalidad de mostrar los productos encontrados-->
         <activity android:name=".controller.ResultadosBusquedaActivity"></activity>
+
+        <!-- InfoProductoActivity es el controlador para la funcionalidad de mostrar los datos del producto seleccionado-->
+
         <activity android:name=".controller.InfoProductoActivity"></activity>
 
     </application>

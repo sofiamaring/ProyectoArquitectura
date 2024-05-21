@@ -13,7 +13,7 @@ class ResultadosBusquedaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultados_busqueda)
-
+        //recibe las varibales del producto que se ingreso en la consulta para mostrarlo
         val nombres = intent.getStringArrayExtra("nombres")
         val tipos = intent.getStringArrayExtra("tipos")
         val descripciones = intent.getStringArrayExtra("descripciones")
@@ -27,10 +27,13 @@ class ResultadosBusquedaActivity : AppCompatActivity() {
                 val estado = estados?.get(i)
                 val tipo = tipos[i]
                 val descripcion = descripciones[i]
+                // le brinda al boton el texto y el evento correspondiente
                 val button = Button(this).apply {
                     text = "$nombre: $estado"
                     setOnClickListener {
                         val intent = Intent(
+                            //Envia los datos a la siguiente actividad para mostrar los datos correspondientes
+                            // en el siguiente layout
                             this@ResultadosBusquedaActivity,
                             InfoProductoActivity::class.java
                         ).apply {
@@ -47,6 +50,7 @@ class ResultadosBusquedaActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this, "No se encontraron productos", Toast.LENGTH_SHORT).show()
         }
+        //evento para regresar al layout anterior(termina la actividad)
         btnRegresar.setOnClickListener {
             finish()
         }

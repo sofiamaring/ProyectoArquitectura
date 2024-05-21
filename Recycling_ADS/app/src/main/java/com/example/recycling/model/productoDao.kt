@@ -6,8 +6,6 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 
-
-//<!-- funciones para acceder a la base de datos-->
 object ProductoDAO {
     private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
     private val productosRef: DatabaseReference = database.getReference("productos")
@@ -37,15 +35,15 @@ object ProductoDAO {
         }
     }
 
-    fun consultarProductoPorNombre(nombre: String, callback: (Producto?) -> Unit) {
+    fun buscarProductosPorNombre(nombre: String, callback: (List<Producto>) -> Unit) {
         productosRef.orderByChild("nombre").equalTo(nombre).addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
-                val producto = snapshot.children.firstOrNull()?.getValue(Producto::class.java)
-                callback(producto)
+                val productos = snapshot.children.mapNotNull { it.getValue(Producto::class.java) }
+                callback(productos)
             }
 
             override fun onCancelled(error: DatabaseError) {
-                callback(null)
+                callback(emptyList())
             }
         })
     }
@@ -62,4 +60,5 @@ object ProductoDAO {
             }
         })
     }
+
 }

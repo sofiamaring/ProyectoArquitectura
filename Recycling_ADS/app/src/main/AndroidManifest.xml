@@ -38,6 +38,8 @@
             android:name=".controller.ModificarProductoActivity"
             android:label="@string/title_activity_modificar_producto"
             android:exported="false" />
+        <activity android:name=".controller.ResultadosBusquedaActivity"></activity>
+        <activity android:name=".controller.InfoProductoActivity"></activity>
 
     </application>
 </manifest>

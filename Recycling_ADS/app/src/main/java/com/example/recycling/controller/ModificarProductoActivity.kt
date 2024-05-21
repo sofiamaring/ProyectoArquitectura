@@ -1,48 +1,101 @@
 package com.example.recycling.controller
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Switch
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.model.Producto
 import com.example.recycling.model.ProductoDAO
 import com.example.recycling.R
 
+
 class ModificarProductoActivity : AppCompatActivity() {
+    private lateinit var productoId: String
+    private lateinit var estadoProducto: String
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.editar_producto)
-        //<!-- Se declaran los nombres de las variables de los EDitText, Button, etc de la vista para manejarlos aquí   -->
 
         val editTextNombre: EditText = findViewById(R.id.editTextNombre_editar)
         val editTextTipo: EditText = findViewById(R.id.editTextTipo_editar)
         val editTextDescripcion: EditText = findViewById(R.id.editTextDescripcion_editar)
         val btnModificarProducto: Button = findViewById(R.id.btneditar_producto)
-        //<!-- Se agrega evento al boton de la vista -->
+        val switchEstado: Switch = findViewById(R.id.switch1)
+        val textViewEstado: TextView = findViewById(R.id.estado)
+
+        // Recibir los datos del producto
+        val nombre = intent.getStringExtra("nombre")
+        val tipo = intent.getStringExtra("tipo")
+        val descripcion = intent.getStringExtra("descripcion")
+        val estado = intent.getStringExtra("estado")
+
+        // Establecer los datos en los campos de entrada
+        editTextNombre.setText(nombre)
+        editTextTipo.setText(tipo)
+        editTextDescripcion.setText(descripcion)
+
+        // Inicializar el estado del producto
+        estadoProducto = estado ?: "activo"
+        switchEstado.isChecked = estadoProducto == "activo"
+        textViewEstado.text = if (estadoProducto == "activo") "Disponible" else "No Disponible"
+        textViewEstado.setTextColor(if (estadoProducto == "activo") resources.getColor(R.color.green) else resources.getColor(R.color.red))
+
+
+
+
+        // Necesitamos recuperar el ID del producto desde la base de datos
+        if (nombre != null) {
+            ProductoDAO.buscarProductosPorNombre(nombre) { productos ->
+                if (productos.isNotEmpty()) {
+                    val producto = productos[0]
+                    productoId = producto.idProducto // Guardar el ID del producto
+                }
+            }
+        } else {
+            Toast.makeText(this, "Error: Nombre del producto no encontrado", Toast.LENGTH_SHORT).show()
+        }
+        switchEstado.setOnCheckedChangeListener { _, isChecked ->
+            estadoProducto = if (isChecked) "activo" else "desactivado"
+            textViewEstado.text = if (estadoProducto == "activo") "Disponible" else "No Disponible"
+            textViewEstado.setTextColor(if (estadoProducto == "activo") resources.getColor(R.color.green) else resources.getColor(R.color.red))
+        }
+
+
+
         btnModificarProducto.setOnClickListener {
-            val nombre = editTextNombre.text.toString().trim()
-            val tipo = editTextTipo.text.toString().trim()
-            val descripcion = editTextDescripcion.text.toString().trim()
-            if (nombre.isEmpty() || tipo.isEmpty() || descripcion.isEmpty()) {
+            val nuevoNombre = editTextNombre.text.toString().trim()
+            val nuevoTipo = editTextTipo.text.toString().trim()
+            val nuevaDescripcion = editTextDescripcion.text.toString().trim()
+            if (nuevoNombre.isEmpty() || nuevoTipo.isEmpty() || nuevaDescripcion.isEmpty()) {
                 Toast.makeText(this, "Todos los campos son obligatorios", Toast.LENGTH_SHORT).show()
             } else {
-                //<!-- se consulta primero el nombre al modelo para segurarnos que existe el porducto-->
-                ProductoDAO.consultarProductoPorNombre(nombre) { producto ->
-                    if (producto != null) {
-                        //<!-- Si existe, entonces se cera un prodcuto con los datos nuevo y se le manda al modleo con el id del producto original
-                        val productoModificado = Producto(nombre, tipo, descripcion)
-                        ProductoDAO.actualizarProducto(producto.idProducto, productoModificado) { success ->
-                            if (success) {
-                                Toast.makeText(this, "Producto actualizado correctamente", Toast.LENGTH_SHORT).show()
-                                finish()  // Cierra la actividad y vuelve al dashboard o a la actividad anterior
-                            } else {
-                                Toast.makeText(this, "Error al actualizar el producto", Toast.LENGTH_SHORT).show()
+                if (::productoId.isInitialized) {
+                    val productoModificado = Producto(nuevoNombre, nuevoTipo, productoId, estadoProducto, nuevaDescripcion)
+                    ProductoDAO.actualizarProducto(productoId, productoModificado) { success ->
+                        if (success) {
+                            val resultIntent = Intent().apply {
+                                putExtra("nombre", nuevoNombre)
+                                putExtra("tipo", nuevoTipo)
+                                putExtra("descripcion", nuevaDescripcion)
+                                putExtra("estado", estadoProducto)
+                                putExtra("idProducto", productoId)
                             }
+                            setResult(Activity.RESULT_OK, resultIntent)
+                            Toast.makeText(this, "Se actualizo el producto", Toast.LENGTH_SHORT).show()
+
+                            finish()
+                        } else {
+                            Toast.makeText(this, "Error al actualizar el producto", Toast.LENGTH_SHORT).show()
                         }
-                    } else {
-                        Toast.makeText(this, "Producto no encontrado", Toast.LENGTH_SHORT).show()
                     }
+                } else {
+                    Toast.makeText(this, "Error: ID del producto no encontrado", Toast.LENGTH_SHORT).show()
                 }
             }
         }

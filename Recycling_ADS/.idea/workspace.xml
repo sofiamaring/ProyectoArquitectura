@@ -4,6 +4,48 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resultados_busqueda.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/busqueda_productos.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dashboard_recycling.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/editar_producto.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/info_producto.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/login_producto.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/menu_recycling.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/nuevo_producto.xml">
+        <config>
+          <theme>@style/Theme.Recycling</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
@@ -42,8 +84,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -68,15 +111,15 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Natalia&quot;,
     &quot;last_directory_selection&quot;: &quot;/Users/nataliacabrera/Documents/Recycling2/app/src/main/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/nataliacabrera/Documents/GitHub/Recycling_ADS&quot;,
+    &quot;recommended.upgrade.last.time.stamp&quot;: &quot;1715726823311&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/recycling/controller" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/recycling" />
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.recycling.controller" />
     </key>
   </component>
   <component name="RunManager">

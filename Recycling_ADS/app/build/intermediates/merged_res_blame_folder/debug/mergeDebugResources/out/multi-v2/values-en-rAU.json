@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-58:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/421ef54b3c1a2ad2002c4523ad30c864/transformed/core-1.13.0/res/values-en-rAU/values-en-rAU.xml",

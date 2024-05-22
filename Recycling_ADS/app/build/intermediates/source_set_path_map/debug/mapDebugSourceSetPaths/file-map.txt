@@ -54,9 +54,10 @@ com.example.recycling.app-lifecycle-livedata-2.7.0-52 /Users/nataliacabrera/.gra
 com.example.recycling.app-material-icons-core-release-53 /Users/nataliacabrera/.gradle/caches/transforms-3/f37f324daa3194402244ca0fb6f43ce9/transformed/material-icons-core-release/res
 com.example.recycling.app-play-services-base-18.1.0-54 /Users/nataliacabrera/.gradle/caches/transforms-3/f6e0522bd913e37a2b3bdaabb920f1fe/transformed/play-services-base-18.1.0/res
 com.example.recycling.app-ui-util-release-55 /Users/nataliacabrera/.gradle/caches/transforms-3/fdb18436b06dfef59b5441eed0f941c2/transformed/ui-util-release/res
-com.example.recycling.app-resValues-56 /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/build/generated/res/resValues/debug
-com.example.recycling.app-packageDebugResources-57 /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.recycling.app-packageDebugResources-58 /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.recycling.app-debug-59 /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.recycling.app-debug-60 /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/debug/res
-com.example.recycling.app-main-61 /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/res
+com.example.recycling.app-res-56 /Users/nataliacabrera/Documents/Recycling_ADS/app/build/generated/res/processDebugGoogleServices
+com.example.recycling.app-resValues-57 /Users/nataliacabrera/Documents/Recycling_ADS/app/build/generated/res/resValues/debug
+com.example.recycling.app-packageDebugResources-58 /Users/nataliacabrera/Documents/Recycling_ADS/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.recycling.app-packageDebugResources-59 /Users/nataliacabrera/Documents/Recycling_ADS/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.recycling.app-debug-60 /Users/nataliacabrera/Documents/Recycling_ADS/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.recycling.app-debug-61 /Users/nataliacabrera/Documents/Recycling_ADS/app/src/debug/res
+com.example.recycling.app-main-62 /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/res

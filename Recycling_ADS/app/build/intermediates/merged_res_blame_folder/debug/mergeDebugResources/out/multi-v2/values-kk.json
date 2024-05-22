@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-58:/values-kk/values-kk.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/55f0037ada4e9ae1e8959e17c4a59530/transformed/material3-1.1.1/res/values-kk/values-kk.xml",

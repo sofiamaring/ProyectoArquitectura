@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-58:/values-bg/values-bg.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-bg/values-bg.xml",
             "map": [
                 {
                     "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/5664e815b170685d817722e3764f46eb/transformed/credentials-1.2.0-rc01/res/values-bg/values-bg.xml",

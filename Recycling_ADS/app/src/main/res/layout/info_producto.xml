@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:gravity="center_horizontal"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    tools:context=".controller.DetalleProductoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/regresar_info_producto"
+                android:id="@+id/regresar_productos"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 android:layout_width="65dp"
@@ -70,11 +70,15 @@
                 android:gravity="center"
                 android:textColor="@android:color/white">
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                <ImageButton
+                    android:id="@+id/btnRegresar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/regresar" />
+                    android:src="@drawable/regresar"
+
+                    />
 
             </LinearLayout>
         </LinearLayout>
@@ -99,13 +103,14 @@
                 android:layout_width="190dp"
                 android:layout_height="190dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/cocacola" />
+                android:src="@drawable/anadir_imagen" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textViewNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -119,7 +124,7 @@
 
     <LinearLayout
         android:layout_width="350dp"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/boton_gestiones"
@@ -127,8 +132,9 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/textViewDescripcion"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="200dp"
             android:baselineAligned="false"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -144,16 +150,17 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="15dp"
         android:layout_marginBottom="25dp"
-        android:layout_marginTop="40dp"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@drawable/boton_redondo_opciones"
         android:gravity="center"
         android:textColor="@android:color/white">
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+        <ImageButton
+            android:id="@+id/btnModificar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerCrop"
             android:src="@drawable/editar" />
 

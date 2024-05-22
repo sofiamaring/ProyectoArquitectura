@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-58:/values-da/values-da.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/f6e0522bd913e37a2b3bdaabb920f1fe/transformed/play-services-base-18.1.0/res/values-da/values.xml",

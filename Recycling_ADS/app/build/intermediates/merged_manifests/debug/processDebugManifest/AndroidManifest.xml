@@ -37,9 +37,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
 
-        <!-- MainActivity actúa como la entrada principal de la aplicación -->
+        <!-- com.example.recycling.controller.MainActivity actúa como la entrada principal de la aplicación -->
         <activity
-            android:name="com.example.recycling.MainActivity"
+            android:name="com.example.recycling.controller.MainActivity"
             android:exported="true"
             android:label="@string/app_name" >
             <intent-filter>
@@ -66,6 +66,8 @@
             android:name="com.example.recycling.controller.ModificarProductoActivity"
             android:exported="false"
             android:label="@string/title_activity_modificar_producto" />
+        <activity android:name="com.example.recycling.controller.ResultadosBusquedaActivity" />
+        <activity android:name="com.example.recycling.controller.InfoProductoActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

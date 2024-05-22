@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/resultados_busqueda_description">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/menu_productos"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="25dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/borde_redondo_boton"
+                android:gravity="center"
+                android:textColor="@android:color/white">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/menu" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="bottom|right"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginRight="30dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/productoo" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="bottom|right"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/regresar_productos"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circulo_menu"
+                    android:gravity="center"
+                    android:textColor="@android:color/white">
+
+                    <ImageButton
+                        android:id="@+id/btnRegresar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/regresar" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Aquí se añadirán dinámicamente los botones de los productos -->
+        <LinearLayout
+            android:id="@+id/linearLayoutResultados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

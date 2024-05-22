@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-58:/values-v21/values-v21.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/9e640f7fa8a89f5f29873ac0e90e7b3f/transformed/credentials-play-services-auth-1.2.0-rc01/res/values-v21/values-v21.xml",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:2:1-45:12
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/884f321b41461e366739a403fc71f737/transformed/firebase-database-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-ktx:23.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/4b5773d28e27bdee4cd7e75de8f4e47a/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/061fc2fef4cbb3bbfaf80cebc9f2720c/transformed/firebase-database-21.0.0/AndroidManifest.xml:15:1-38:12
@@ -103,16 +103,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/e4771b16406f7384a0c351e8e679deff/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/de4df10d50a83b9077269366224a8602/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:3:5-36
-		INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/061fc2fef4cbb3bbfaf80cebc9f2720c/transformed/firebase-database-21.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/061fc2fef4cbb3bbfaf80cebc9f2720c/transformed/firebase-database-21.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:22.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/4b763c52cb0dbb3d87e7610621e2b971/transformed/play-services-measurement-api-22.0.0/AndroidManifest.xml:22:5-67
@@ -130,10 +130,10 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/d0d2023deb192393c275d72a9ee29b18/transformed/play-services-measurement-sdk-api-22.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/d0d2023deb192393c275d72a9ee29b18/transformed/play-services-measurement-sdk-api-22.0.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:5:5-42:19
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:5:5-42:19
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:5:5-44:19
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:5:5-44:19
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/884f321b41461e366739a403fc71f737/transformed/firebase-database-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/884f321b41461e366739a403fc71f737/transformed/firebase-database-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-auth-ktx:23.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/4b5773d28e27bdee4cd7e75de8f4e47a/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:7:5-15:19
@@ -203,67 +203,75 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nataliacab
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nataliacabrera/.gradle/caches/transforms-3/3fb23da4d88b8dd9ccaf5766be0df8ed/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nataliacabrera/.gradle/caches/transforms-3/3fb23da4d88b8dd9ccaf5766be0df8ed/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] /Users/nataliacabrera/.gradle/caches/transforms-3/421ef54b3c1a2ad2002c4523ad30c864/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:11:9-65
-activity#com.example.recycling.MainActivity
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:14:9-22:20
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:11:9-65
+activity#com.example.recycling.controller.MainActivity
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:label
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:16:13-45
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:16:13-45
 	android:exported
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:15:13-40
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:15:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:18:13-21:29
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.example.recycling.controller.AgregarProductoActivity
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:25:9-28:40
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:25:9-28:40
 	android:label
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:27:13-68
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:27:13-68
 	android:exported
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:28:13-37
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:26:13-63
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:26:13-63
 activity#com.example.recycling.controller.BuscarProductoActivity
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:31:9-34:40
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:31:9-34:40
 	android:label
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:33:13-67
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:33:13-67
 	android:exported
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:34:13-37
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:32:13-62
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:32:13-62
 activity#com.example.recycling.controller.ModificarProductoActivity
-ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:37:9-40:40
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:37:9-40:40
 	android:label
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:39:13-70
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:39:13-70
 	android:exported
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml:38:13-65
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:38:13-65
+activity#com.example.recycling.controller.ResultadosBusquedaActivity
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:41:9-84
+	android:name
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:41:19-72
+activity#com.example.recycling.controller.InfoProductoActivity
+ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:42:9-78
+	android:name
+		ADDED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml:42:19-66
 uses-sdk
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/884f321b41461e366739a403fc71f737/transformed/firebase-database-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/884f321b41461e366739a403fc71f737/transformed/firebase-database-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:23.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/4b5773d28e27bdee4cd7e75de8f4e47a/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:5:5-44
@@ -463,9 +471,9 @@ MERGED from [androidx.print:print:1.0.0] /Users/nataliacabrera/.gradle/caches/tr
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/a65adf779947c9f15d6eedd8be746b76/transformed/firebase-auth-23.0.0/AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nataliacabrera/Documents/GitHub/ProyectoArquitectura/Recycling_ADS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliacabrera/Documents/Recycling_ADS/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/884f321b41461e366739a403fc71f737/transformed/firebase-database-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:23.0.0] /Users/nataliacabrera/.gradle/caches/transforms-3/4b5773d28e27bdee4cd7e75de8f4e47a/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:8:9-14:19

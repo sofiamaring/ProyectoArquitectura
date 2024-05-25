@@ -9,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.model.Producto
 import com.example.recycling.model.ProductoDAO
 import com.example.recycling.R
-
-class AgregarProductoActivity: AppCompatActivity() { //actividad que se encarga de conectar el layout nuevo_producto con el mode
+/**
+* actividad que se encarga de conectar el layout nuevo_producto con el modelo
+ */
+class AgregarProductoActivity: AppCompatActivity() { 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.nuevo_producto)

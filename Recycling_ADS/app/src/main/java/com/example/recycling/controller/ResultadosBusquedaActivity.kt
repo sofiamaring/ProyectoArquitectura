@@ -8,7 +8,9 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.R
-
+/**
+* actividad que se encarga de conectar el layout resultados_busqueda con el modelo
+ */
 class ResultadosBusquedaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

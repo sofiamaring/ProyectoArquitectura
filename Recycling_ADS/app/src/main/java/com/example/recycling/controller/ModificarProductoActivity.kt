@@ -14,6 +14,9 @@ import com.example.recycling.model.Producto
 import com.example.recycling.model.ProductoDAO
 import com.example.recycling.R
 
+/**
+* actividad que se encarga de conectar el layout editar_producto con el modelo
+ */
 
 class ModificarProductoActivity : AppCompatActivity() {
     private lateinit var productoId: String

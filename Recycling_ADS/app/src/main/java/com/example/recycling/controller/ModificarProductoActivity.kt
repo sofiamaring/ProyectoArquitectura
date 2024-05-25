@@ -51,9 +51,6 @@ class ModificarProductoActivity : AppCompatActivity() {
         textViewEstado.text = if (estadoProducto == "activo") "Disponible" else "No Disponible"
         textViewEstado.setTextColor(if (estadoProducto == "activo") resources.getColor(R.color.green) else resources.getColor(R.color.red))
 
-
-
-
         // Necesitamos recuperar el ID del producto desde la base de datos
         if (nombre != null) {
             ProductoDAO.buscarProductosPorNombre(nombre) { productos ->
@@ -70,8 +67,6 @@ class ModificarProductoActivity : AppCompatActivity() {
             textViewEstado.text = if (estadoProducto == "activo") "Disponible" else "No Disponible"
             textViewEstado.setTextColor(if (estadoProducto == "activo") resources.getColor(R.color.green) else resources.getColor(R.color.red))
         }
-
-
 
         btnModificarProducto.setOnClickListener {
             val nuevoNombre = editTextNombre.text.toString().trim()
@@ -93,8 +88,6 @@ class ModificarProductoActivity : AppCompatActivity() {
                             }
                             setResult(Activity.RESULT_OK, resultIntent)
                             Toast.makeText(this, "Se actualizo el producto", Toast.LENGTH_SHORT).show()
-
-
                         } else {
                             Toast.makeText(this, "Error al actualizar el producto", Toast.LENGTH_SHORT).show()
                         }

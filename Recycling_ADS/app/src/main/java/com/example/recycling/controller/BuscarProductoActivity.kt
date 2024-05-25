@@ -8,7 +8,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.R
 import com.example.recycling.model.ProductoDAO
-//actividad para consultar un producto
+/**
+* actividad que se encarga de conectar el layout busqueda_productos con el modelo
+ */
 class BuscarProductoActivity : AppCompatActivity() { 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

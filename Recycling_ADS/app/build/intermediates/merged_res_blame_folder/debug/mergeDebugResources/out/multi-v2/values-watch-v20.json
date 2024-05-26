@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-60:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/d3ca6781fda898839e56d34baa8c69ef/transformed/play-services-auth-20.7.0/res/values-watch-v20/values.xml",
+                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/581caf8ee6080aba3860569a6c70bee2/transformed/play-services-auth-20.7.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/346a5267925682dcd40da7f62eb01c35/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/99a754aec9027bc911341c97856c7139/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

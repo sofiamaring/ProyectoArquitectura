@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-land/values-land.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-60:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/346a5267925682dcd40da7f62eb01c35/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
+                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/99a754aec9027bc911341c97856c7139/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

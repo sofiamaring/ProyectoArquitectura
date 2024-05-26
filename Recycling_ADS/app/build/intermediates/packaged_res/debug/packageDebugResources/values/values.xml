@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="tipos_producto_array">
+        <item>Dulce</item>
+        <item>Bebida</item>
+        <item>Pastelería</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="green">#2DB62F</color>
     <color name="purple_200">#FFBB86FC</color>

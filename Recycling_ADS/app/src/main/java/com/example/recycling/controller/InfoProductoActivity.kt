@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.R
 /**
-* actividad que se encarga de conectar el layout info_producto con el modelo
+ * actividad que se encarga de conectar el layout info_producto con el modelo
  */
 class InfoProductoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

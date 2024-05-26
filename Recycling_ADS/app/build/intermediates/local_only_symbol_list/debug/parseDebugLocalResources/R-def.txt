@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array tipos_producto_array
 color black
 color green
 color purple_200
@@ -49,8 +50,6 @@ id editTextDescripcion_editar
 id editTextDescripcion_registrar
 id editTextNombre_editar
 id editTextNombre_registrar
-id editTextTipo_editar
-id editTextTipo_registrar
 id editText_consultar_producto
 id editar_producto_info
 id estado
@@ -63,6 +62,7 @@ id registrar
 id regresar_editar_producto
 id regresar_productos
 id sign_in
+id spinner_tipo_producto
 id switch1
 id textViewDescripcion
 id textViewNombre

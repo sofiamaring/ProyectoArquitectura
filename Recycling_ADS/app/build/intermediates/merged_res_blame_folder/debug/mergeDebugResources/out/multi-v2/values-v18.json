@@ -1,16 +1,35 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recycling.app-mergeDebugResources-59:/values-v18/values-v18.xml",
+            "outputFile": "com.example.recycling.app-mergeDebugResources-60:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/346a5267925682dcd40da7f62eb01c35/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/99a754aec9027bc911341c97856c7139/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "48",
                         "endOffsets": "99"
+                    }
+                },
+                {
+                    "source": "/Users/nataliacabrera/.gradle/caches/transforms-3/ea989a650cbd058139ddffbd9d42505b/transformed/core-1.5.0/res/values-v18/values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "180,596",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "595,1009"
+                    },
+                    "to": {
+                        "startLines": "3,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "104,524",
+                        "endLines": "10,18",
+                        "endColumns": "8,8",
+                        "endOffsets": "519,937"
                     }
                 }
             ]

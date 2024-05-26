@@ -1,6 +1,6 @@
 package com.example.recycling.model
 /**
-* clase para la creacion de productos
+ * clase para la creacion de productos
  */
 class Producto(
     var nombre: String = "",

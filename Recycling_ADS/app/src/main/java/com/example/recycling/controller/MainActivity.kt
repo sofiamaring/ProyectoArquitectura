@@ -8,9 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.recycling.R
 
 /**
-* actividad inicial donde empieza con el dashboard
+ * actividad inicial donde empieza con el dashboard
  */
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

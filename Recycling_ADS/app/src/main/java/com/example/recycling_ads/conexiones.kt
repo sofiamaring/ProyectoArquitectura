@@ -1,9 +1,10 @@
-package com.example.recycling_ads.ui.theme.controller
+package com.example.recycling_ads
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import android.widget.LinearLayout
 import android.widget.Button
-import com.example.recycling_ads.R
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class login_recycling : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +18,17 @@ class login_recycling : ComponentActivity() {
 }
 
 //navegavilidad del dashboard
+
+class canecas_dashboard : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.dashboard_recycling)
+        val boton_crear_cuenta = findViewById<LinearLayout>(R.id.canecas)
+        boton_crear_cuenta.setOnClickListener {
+            setContentView(R.layout.menu_recycling)
+        }
+    }
+}
 
 class buscar_dashboard : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,6 +59,17 @@ class registrar_dashboard : ComponentActivity() {
         val boton_crear_cuenta = findViewById<LinearLayout>(R.id.registrar)
         boton_crear_cuenta.setOnClickListener {
             setContentView(R.layout.nuevo_producto)
+        }
+    }
+}
+
+class modificar_dashboard : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.dashboard_recycling)
+        val boton_crear_cuenta = findViewById<LinearLayout>(R.id.modificar)
+        boton_crear_cuenta.setOnClickListener {
+            setContentView(R.layout.editar_producto)
         }
     }
 }

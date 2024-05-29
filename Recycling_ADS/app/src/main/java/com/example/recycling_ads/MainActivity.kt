@@ -1,4 +1,4 @@
-package com.example.recycling_ads.controller
+package com.example.recycling_ads
 
 import android.content.Intent
 import android.os.Bundle

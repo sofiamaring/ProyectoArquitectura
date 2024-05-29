@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Recycling_ADS</string>
+    <string name="app_name">Recycling</string>
+    <string name="title_activity_main">Inicio</string>
+    <string name="title_activity_agregar_producto">Agregar Producto</string>
+    <string name="title_activity_buscar_producto">Buscar Producto</string>
+    <string name="title_activity_modificar_producto">Modificar Producto</string>
+    <string name="resultados_busqueda_description">Resultados de la búsqueda</string>
+    `<string-array name="tipos_producto_array">
+        <item>Dulce</item>
+        <item>Bebida</item>
+        <item>Pastelería</item>
+    </string-array>
 </resources>

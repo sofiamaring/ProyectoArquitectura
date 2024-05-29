@@ -5,6 +5,8 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.os.Handler
+import android.os.Looper
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -111,15 +113,15 @@ class ModificarProductoActivity : AppCompatActivity() {
                     val productoModificado = Producto(nuevoNombre, selectedTipoProducto, productoId, estadoProducto, nuevaDescripcion)
                     ProductoDAO.actualizarProducto(productoId, productoModificado) { success ->
                         if (success) {
-                            val resultIntent = Intent().apply {
-                                putExtra("nombre", nuevoNombre)
-                                putExtra("tipo", selectedTipoProducto)
-                                putExtra("descripcion", nuevaDescripcion)
-                                putExtra("estado", estadoProducto)
-                                putExtra("idProducto", productoId)
-                            }
-                            setResult(Activity.RESULT_OK, resultIntent)
-                            Toast.makeText(this, "Se actualizó el producto", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "El producto ha sido actualizado", Toast.LENGTH_SHORT).show()
+
+                            // Usar un Handler para retrasar la redirección
+                            Handler(Looper.getMainLooper()).postDelayed({
+                                val searchIntent = Intent(this, BuscarProductoActivity::class.java)
+                                searchIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                                startActivity(searchIntent)
+                                finish()
+                            }, 1500)
                         } else {
                             Toast.makeText(this, "Error al actualizar el producto", Toast.LENGTH_SHORT).show()
                         }

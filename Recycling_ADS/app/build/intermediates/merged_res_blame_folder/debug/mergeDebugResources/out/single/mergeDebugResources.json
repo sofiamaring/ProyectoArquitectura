@@ -1,202 +1,198 @@
 [
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.recycling.app-debug-62:/layout_menu_recycling.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/menu_recycling.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_editar.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/editar.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_regresar.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/regresar.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.recycling.app-debug-62:/drawable_boton_gestiones.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/boton_gestiones.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_luna2.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/luna2.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_lupa.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/lupa.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_info_producto.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/info_producto.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_cocacola.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/cocacola.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_galletasfestival.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/galletasfestival.png"
+        "merged": "com.example.recycling.app-debug-62:/layout_activity_resultados_busqueda.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/activity_resultados_busqueda.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_menu.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/menu.png"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_cocacola.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/cocacola.png"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_boton_gestiones.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/boton_gestiones.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_boton_out.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/boton_out.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.recycling.app-debug-62:/drawable_tiendas.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/tiendas.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_boton_redondo_opciones.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/boton_redondo_opciones.xml"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/xml/data_extraction_rules.xml"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.recycling.app-debug-62:/layout_busqueda_productos.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/busqueda_productos.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_gatellasmilo.jpeg.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/gatellasmilo.jpeg"
+        "merged": "com.example.recycling.app-debug-62:/drawable_editar.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/editar.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.recycling.app-debug-62:/drawable_galletasfestival.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/galletasfestival.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_circulo_menu.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/circulo_menu.xml"
+        "merged": "com.example.recycling.app-debug-62:/layout_login_producto.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/login_producto.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_editar_producto.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/editar_producto.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_bonyurt.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/bonyurt.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_circulo_menu.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/circulo_menu.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_mapa.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/mapa.png"
-    },
-    {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_fondo_solido_borde.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/fondo_solido_borde.xml"
-    },
-    {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_regresar.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/regresar.png"
-    },
-    {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
         "merged": "com.example.recycling.app-debug-62:/layout_editar_producto.xml.flat",
         "source": "com.example.recycling.app-main-64:/layout/editar_producto.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_registrar.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/registrar.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_boton_redondo_opciones.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/boton_redondo_opciones.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_productos.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/productos.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_productos.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/productos.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_dashboard_recycling.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/dashboard_recycling.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_menu.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/menu.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_tiendas.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/tiendas.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_anadir_imagen.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/anadir_imagen.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_editar_producto.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/editar_producto.png"
+        "merged": "com.example.recycling.app-debug-62:/layout_nuevo_producto.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/nuevo_producto.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.recycling.app-debug-62:/drawable_fondo_solido_borde.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/fondo_solido_borde.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_login_producto.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/login_producto.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_productoo.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/productoo.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_productoo.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/productoo.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_caneca.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/caneca.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_bonyurt.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/bonyurt.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_nuevo_producto.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/nuevo_producto.xml"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_busqueda_productos.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/busqueda_productos.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_reciclyng.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/reciclyng.png"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_anadir_imagen.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/anadir_imagen.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_luna2.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/luna2.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_boton_out.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/boton_out.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_borde_redondo_boton.xml.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/borde_redondo_boton.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/xml_backup_rules.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/xml/backup_rules.xml"
+        "merged": "com.example.recycling.app-debug-62:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.recycling.app-main-64:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_activity_resultados_busqueda.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/activity_resultados_busqueda.xml"
+        "merged": "com.example.recycling.app-debug-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recycling.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_menu_recycling.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/menu_recycling.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_registrar.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/registrar.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.recycling.app-debug-62:/drawable_reciclyng.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/reciclyng.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.recycling.app-debug-62:/drawable_mapa.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/mapa.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/layout_editar_producto.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/layout/editar_producto.xml"
+        "merged": "com.example.recycling.app-debug-62:/xml_backup_rules.xml.flat",
+        "source": "com.example.recycling.app-main-64:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_lupa.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/lupa.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_caneca.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/caneca.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_nuevo_producto.png.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/nuevo_producto.png"
+        "merged": "com.example.recycling.app-debug-62:/drawable_nuevo_producto.png.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/nuevo_producto.png"
     },
     {
-        "merged": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-debug-62:/drawable_borde_redondo_boton.xml.flat",
-        "source": "/Users/nataliacabrera/.gradle/daemon/8.4/com.example.recycling.app-main-64:/drawable/borde_redondo_boton.xml"
+        "merged": "com.example.recycling.app-debug-62:/layout_info_producto.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/info_producto.xml"
+    },
+    {
+        "merged": "com.example.recycling.app-debug-62:/layout_dashboard_recycling.xml.flat",
+        "source": "com.example.recycling.app-main-64:/layout/dashboard_recycling.xml"
+    },
+    {
+        "merged": "com.example.recycling.app-debug-62:/drawable_gatellasmilo.jpeg.flat",
+        "source": "com.example.recycling.app-main-64:/drawable/gatellasmilo.jpeg"
     }
 ]
